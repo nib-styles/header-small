@@ -1,0 +1,13 @@
+.micro-header {
+  padding: 9px;
+  text-align: center;
+  background-color: hsl(134, 100%, 29%);
+}
+
+.micro-header__logo {
+  display: inline-block;
+  width: 42px;
+  height: 22px;
+  text-indent: -99999px;
+  background: url('./img/white.svg') no-repeat;
+}
