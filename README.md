@@ -10,6 +10,8 @@ Styles for small (micro) nib header
 
 `index.scss`
 
-    @import "@nib-styles/footer-small";
+```scss
+@import "@nib-styles/header-small";
+```
     
 > Note: Requires use of `sass-composer` to bundle dependencies.
