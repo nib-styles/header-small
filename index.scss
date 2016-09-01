@@ -1,7 +1,14 @@
 .micro-header {
+  position: relative;
   padding: 9px;
   text-align: center;
   background-color: hsl(134, 100%, 29%);
+}
+
+.micro-header--white {
+  padding: 9px;
+  text-align: center;
+  background-color: #fff;
 }
 
 .micro-header__logo {
@@ -10,4 +17,21 @@
   height: 22px;
   text-indent: -99999px;
   background: url('./img/white.svg') no-repeat;
+
+  .micro-header--white & {
+    // White bg has green logo
+    background: url('./img/green.svg') no-repeat;
+  }
+}
+
+.micro-header__lhs {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.micro-header__rhs {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
