@@ -1,5 +1,8 @@
 {
   "name": "@nib-styles/header-small",
   "version": "0.0.1",
-  "dependencies": {}
+  "dependencies": {
+    "@nib-styles/colors": "^1.1.1",
+    "@nib-styles/sass-spacing": "^1.0.0"
+  }
 }
