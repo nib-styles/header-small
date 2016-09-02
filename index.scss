@@ -7,12 +7,13 @@
   text-align: center;
 }
 
-.micro-header--green {
+.micro-header--queen-elizabeth {
   background-color: $color-queen-elizabeth;
+
 }
 
 .micro-header--white {
-  background-color: #fff;
+  background-color: $color-white;
 }
 
 .micro-header__logo {
